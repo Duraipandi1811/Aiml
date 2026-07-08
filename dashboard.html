@@ -1,0 +1,1126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>Dashboard</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+<link rel="stylesheet" href="css/sidebar.css">
+
+<link rel="stylesheet"
+href="css/style.css">
+<link rel="stylesheet" href="css/navbar.css">
+<!-- <link rel="stylesheet"
+href="css/dashboard.css"> -->
+
+</head>
+
+<body>
+
+    <main class="content">
+
+    <!-- Top Navbar -->
+
+    <header class="topbar">
+
+        <div class="top-left">
+
+            <div class="menu-btn">
+
+                <i class='bx bx-menu'></i>
+
+            </div>
+
+            <div class="search-box">
+
+                <i class='bx bx-search'></i>
+
+                <input type="text"
+                       placeholder="Search for assets, work orders, tickets...">
+
+                <span class="shortcut">⌘ </span>
+
+            </div>
+
+        </div>
+
+        <div class="top-right">
+
+            <div class="nav-icon notification">
+
+                <i class='bx bx-bell'></i>
+
+                <span class="badge">8</span>
+
+            </div>
+
+            <div class="nav-icon">
+
+                <i class='bx bx-help-circle'></i>
+
+            </div>
+
+            <div class="office-dropdown">
+
+                <i class='bx bx-buildings'></i>
+
+                <span>Head Office</span>
+
+                <i class='bx bx-chevron-down'></i>
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <!-- Page Heading -->
+
+    <section class="page-header">
+
+        <div>
+
+            <h1>AI Agent Modules</h1>
+
+            <p>
+
+                Autonomous AI agents working together to optimize your facility operations.
+
+            </p>
+
+        </div>
+
+        <button class="add-module">
+
+            <i class='bx bx-plus'></i>
+
+            Add New Module
+
+        </button>
+
+    </section>
+    <!-- ================= KPI CARDS ================= -->
+
+<section class="stats-grid">
+
+    <!-- Card 1 -->
+
+    <div class="stat-card blue-card">
+
+        <div class="stat-icon blue">
+
+            <i class='bx bx-category'></i>
+
+        </div>
+
+        <div class="stat-content">
+
+            <h2>4</h2>
+
+            <h4>Active Modules</h4>
+
+            <p>running smoothly</p>
+
+        </div>
+
+        <div class="stat-arrow">
+
+            <i class='bx bx-check-circle'></i>
+
+        </div>
+
+    </div>
+
+    <!-- Card 2 -->
+
+    <div class="stat-card green-card">
+
+        <div class="stat-icon green">
+
+            <i class='bx bx-bar-chart-alt'></i>
+
+        </div>
+
+        <div class="stat-content">
+
+            <h2>12.4%</h2>
+
+            <h4>Avg. Efficiency Gain</h4>
+
+            <p>this month</p>
+
+        </div>
+
+        <div class="trend up">
+
+            <i class='bx bx-trending-up'></i>
+
+        </div>
+
+    </div>
+
+    <!-- Card 3 -->
+
+    <div class="stat-card orange-card">
+
+        <div class="stat-icon orange">
+
+            <i class='bx bx-bolt-circle'></i>
+
+        </div>
+
+        <div class="stat-content">
+
+            <h2>18.7%</h2>
+
+            <h4>Energy Savings</h4>
+
+            <p>this month</p>
+
+        </div>
+
+        <div class="trend">
+
+            <i class='bx bx-trending-up'></i>
+
+        </div>
+
+    </div>
+
+    <!-- Card 4 -->
+
+    <div class="stat-card purple-card">
+
+        <div class="stat-icon purple">
+
+            <i class='bx bx-rupee'></i>
+
+        </div>
+
+        <div class="stat-content">
+
+            <h2>₹2.45L</h2>
+
+            <h4>Cost Savings</h4>
+
+            <p>this month</p>
+
+        </div>
+
+        <div class="trend">
+
+            <i class='bx bx-trending-up'></i>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= MODULE FILTER ================= -->
+
+<section class="module-toolbar">
+
+    <div class="module-tabs">
+
+        <button class="tab active">
+            All Modules
+        </button>
+
+        <button class="tab">
+            Operations
+        </button>
+
+        <button class="tab">
+            Maintenance
+        </button>
+
+        <button class="tab">
+            Sustainability
+        </button>
+
+        <button class="tab">
+            Security
+        </button>
+
+    </div>
+
+    <div class="view-buttons">
+
+    <button class="view-btn active">
+        <i class='bx bx-grid-alt'></i>
+    </button>
+
+    <button class="view-btn">
+        <i class='bx bx-list-ul'></i>
+    </button>
+
+</div>
+
+</section>
+<!-- ================= ENERGY AGENT ================= -->
+
+<section class="agents-grid">
+
+    <div class="agent-card">
+
+        <!-- Header -->
+
+        <div class="agent-header">
+
+            <div class="agent-info">
+
+                <div class="agent-icon energy">
+
+                    <i class='bx bx-bolt-circle'></i>
+
+                </div>
+
+                <div>
+
+                    <h2>Energy Agent</h2>
+
+                    <span class="status active">
+
+                        ● Active
+
+                    </span>
+
+                </div>
+
+            </div>
+
+            <div class="menu-dot">
+
+                <i class='bx bx-dots-horizontal-rounded'></i>
+
+            </div>
+
+        </div>
+
+        <!-- Description -->
+
+        <p class="agent-description">
+
+            AI-powered optimization of HVAC, lighting and overall
+            facility energy consumption using predictive analytics.
+
+        </p>
+
+        <!-- Features -->
+
+        <div class="feature-list">
+
+            <div class="feature">
+
+                <i class='bx bx-check-circle'></i>
+
+                Energy Monitoring
+
+            </div>
+
+            <div class="feature">
+
+                <i class='bx bx-check-circle'></i>
+
+                HVAC Optimization
+
+            </div>
+
+            <div class="feature">
+
+                <i class='bx bx-check-circle'></i>
+
+                Lighting Automation
+
+            </div>
+
+            <div class="feature">
+
+                <i class='bx bx-check-circle'></i>
+
+                Demand Forecasting
+
+            </div>
+
+        </div>
+
+        <!-- Statistics -->
+
+        <div class="agent-stats">
+
+            <div>
+
+                <h3>18.7%</h3>
+
+                <span>Energy Saved</span>
+
+            </div>
+
+            <div>
+
+                <h3>92%</h3>
+
+                <span>Efficiency</span>
+
+            </div>
+
+            <div>
+
+                <h3>24/7</h3>
+
+                <span>Running</span>
+
+            </div>
+
+        </div>
+        <div class="circle-progress">
+
+    <svg width="90" height="90">
+
+        <circle
+
+            cx="45"
+
+            cy="45"
+
+            r="35"
+
+            class="bg-circle">
+
+        </circle>
+
+        <circle
+
+            cx="45"
+
+            cy="45"
+
+            r="35"
+
+            class="progress-circle">
+
+        </circle>
+
+    </svg>
+
+    <span>92%</span>
+
+</div>
+        <!-- Footer -->
+
+        <div class="agent-footer">
+
+            <button class="details-btn">
+
+                View Details
+
+            </button>
+
+            <button class="secondary-btn">
+
+                Analytics
+
+            </button>
+
+        </div>
+        <div class="mini-chart">
+
+    <canvas id="energyChart"></canvas>
+    
+</div>
+
+    </div>
+    <!-- ================= MAINTENANCE ================= -->
+
+<div class="agent-card">
+
+<div class="agent-header">
+
+<div class="agent-info">
+
+<div class="agent-icon maintenance">
+
+<i class='bx bx-wrench'></i>
+
+</div>
+
+<div>
+
+<h2>Maintenance Agent</h2>
+
+<span class="status warning">
+
+● Monitoring
+
+</span>
+
+</div>
+
+</div>
+
+<div class="menu-dot">
+
+<i class='bx bx-dots-horizontal-rounded'></i>
+
+</div>
+
+</div>
+
+<p class="agent-description">
+
+Predictive maintenance using AI to reduce downtime and extend equipment life.
+
+</p>
+
+<div class="feature-list">
+
+<div class="feature"><i class='bx bx-check-circle'></i> Predictive Alerts</div>
+
+<div class="feature"><i class='bx bx-check-circle'></i> Asset Health</div>
+
+<div class="feature"><i class='bx bx-check-circle'></i> Service Scheduling</div>
+
+<div class="feature"><i class='bx bx-check-circle'></i> Failure Detection</div>
+
+</div>
+
+<div class="agent-stats">
+
+<div>
+
+<h3>34</h3>
+
+<span>Assets</span>
+
+</div>
+
+<div>
+
+<h3>86%</h3>
+
+<span>Health</span>
+
+</div>
+
+<div>
+
+<h3>7</h3>
+
+<span>Open Jobs</span>
+
+</div>
+
+</div>
+
+<div class="progress-title">
+
+<span>Equipment Health</span>
+
+<span>86%</span>
+
+</div>
+
+<div class="progress-bar">
+
+<div class="maintenance-fill"></div>
+
+</div>
+
+<div class="agent-footer">
+
+<button class="details-btn">
+
+View Details
+
+</button>
+
+<button class="secondary-btn">
+
+Analytics
+
+</button>
+
+</div>
+<div class="mini-chart">
+
+    <canvas id="maintenanceChart"></canvas>
+
+</div>
+
+</div>
+<!-- ================= OCCUPANCY ================= -->
+
+<div class="agent-card">
+
+<div class="agent-header">
+
+<div class="agent-info">
+
+<div class="agent-icon occupancy">
+
+<i class='bx bx-group'></i>
+
+</div>
+
+<div>
+
+<h2>Occupancy Agent</h2>
+
+<span class="status active">
+
+● Active
+
+</span>
+
+</div>
+
+</div>
+
+<div class="menu-dot">
+
+<i class='bx bx-dots-horizontal-rounded'></i>
+
+</div>
+
+</div>
+
+<p class="agent-description">
+
+Monitor workspace occupancy and optimize room utilization automatically.
+
+</p>
+
+<div class="feature-list">
+
+<div class="feature"><i class='bx bx-check-circle'></i> Live Occupancy</div>
+
+<div class="feature"><i class='bx bx-check-circle'></i> Smart Scheduling</div>
+
+<div class="feature"><i class='bx bx-check-circle'></i> Room Analytics</div>
+
+<div class="feature"><i class='bx bx-check-circle'></i> Visitor Tracking</div>
+
+</div>
+
+<div class="agent-stats">
+
+<div>
+
+<h3>91%</h3>
+
+<span>Accuracy</span>
+
+</div>
+
+<div>
+
+<h3>152</h3>
+
+<span>Employees</span>
+
+</div>
+
+<div>
+
+<h3>22</h3>
+
+<span>Rooms</span>
+
+</div>
+
+</div>
+
+<div class="progress-title">
+
+<span>Tracking Accuracy</span>
+
+<span>91%</span>
+
+</div>
+
+<div class="progress-bar">
+
+<div class="occupancy-fill"></div>
+
+</div>
+
+<div class="agent-footer">
+
+<button class="details-btn">
+
+View Details
+
+</button>
+
+<button class="secondary-btn">
+
+Analytics
+
+</button>
+
+</div>
+<div class="mini-chart">
+
+    <canvas id="occupancyChart"></canvas>
+
+</div>
+
+</div>
+<!-- ================= SECURITY ================= -->
+
+<div class="agent-card">
+
+<div class="agent-header">
+
+<div class="agent-info">
+
+<div class="agent-icon security">
+
+<i class='bx bx-shield-quarter'></i>
+
+</div>
+
+<div>
+
+<h2>Security Agent</h2>
+
+<span class="status danger">
+
+● Alert
+
+</span>
+
+</div>
+
+</div>
+
+<div class="menu-dot">
+
+<i class='bx bx-dots-horizontal-rounded'></i>
+
+</div>
+
+</div>
+
+<p class="agent-description">
+
+AI surveillance and access monitoring for complete facility protection.
+
+</p>
+
+<div class="feature-list">
+
+<div class="feature"><i class='bx bx-check-circle'></i> CCTV Monitoring</div>
+
+<div class="feature"><i class='bx bx-check-circle'></i> Smart Access</div>
+
+<div class="feature"><i class='bx bx-check-circle'></i> Face Recognition</div>
+
+<div class="feature"><i class='bx bx-check-circle'></i> Threat Detection</div>
+
+</div>
+
+<div class="agent-stats">
+
+<div>
+
+<h3>99%</h3>
+
+<span>Coverage</span>
+
+</div>
+
+<div>
+
+<h3>16</h3>
+
+<span>Cameras</span>
+
+</div>
+
+<div>
+
+<h3>2</h3>
+
+<span>Alerts</span>
+
+</div>
+
+</div>
+
+<div class="progress-title">
+
+<span>Security Coverage</span>
+
+<span>99%</span>
+
+</div>
+
+<div class="progress-bar">
+
+<div class="security-fill"></div>
+
+</div>
+
+<div class="agent-footer">
+
+<button class="details-btn">
+
+View Details
+
+</button>
+
+<button class="secondary-btn">
+
+Analytics
+
+</button>
+
+</div>
+<div class="mini-chart">
+
+    <canvas id="securityChart"></canvas>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- ================= AI ORCHESTRATION ================= -->
+
+<section class="orchestration">
+
+    <div class="orchestration-header">
+
+        <div>
+
+            <h2>AI Agents Working Together</h2>
+
+            <p>
+                Intelligent collaboration between all facility AI agents in real time.
+            </p>
+
+        </div>
+
+        <button class="sync-btn">
+
+            <i class='bx bx-refresh'></i>
+
+            Live Sync
+
+        </button>
+
+    </div>
+
+    <div class="workflow">
+
+        <!-- Energy -->
+
+        <div class="workflow-card">
+
+            <div class="workflow-icon energy">
+
+                <i class='bx bx-bolt-circle'></i>
+
+            </div>
+
+            <h3>Energy</h3>
+
+            <span>Running</span>
+
+        </div>
+
+        <div class="workflow-arrow">
+
+            <i class='bx bx-right-arrow-alt'></i>
+
+        </div>
+
+        <!-- Maintenance -->
+
+        <div class="workflow-card">
+
+            <div class="workflow-icon maintenance">
+
+                <i class='bx bx-wrench'></i>
+
+            </div>
+
+            <h3>Maintenance</h3>
+
+            <span>Monitoring</span>
+
+        </div>
+
+        <div class="workflow-arrow">
+
+            <i class='bx bx-right-arrow-alt'></i>
+
+        </div>
+
+        <!-- Occupancy -->
+
+        <div class="workflow-card">
+
+            <div class="workflow-icon occupancy">
+
+                <i class='bx bx-group'></i>
+
+            </div>
+
+            <h3>Occupancy</h3>
+
+            <span>Active</span>
+
+        </div>
+
+        <div class="workflow-arrow">
+
+            <i class='bx bx-right-arrow-alt'></i>
+
+        </div>
+
+        <!-- Security -->
+
+        <div class="workflow-card">
+
+            <div class="workflow-icon security">
+
+                <i class='bx bx-shield-quarter'></i>
+
+            </div>
+
+            <h3>Security</h3>
+
+            <span>Protected</span>
+
+        </div>
+
+    </div>
+
+    <!-- Bottom Statistics -->
+
+    <div class="workflow-summary">
+
+        <div class="summary-box">
+
+            <h2>4</h2>
+
+            <p>Connected Agents</p>
+
+        </div>
+
+        <div class="summary-box">
+
+            <h2>99.7%</h2>
+
+            <p>System Uptime</p>
+
+        </div>
+
+        <div class="summary-box">
+
+            <h2>126</h2>
+
+            <p>AI Decisions Today</p>
+
+        </div>
+
+        <div class="summary-box">
+
+            <h2>24/7</h2>
+
+            <p>Automation</p>
+
+        </div>
+
+    </div>
+
+</section>
+
+</section>
+
+
+    <div class="dashboard">
+
+    <!-- Sidebar -->
+
+    <aside class="sidebar">
+
+        <!-- Logo -->
+
+        <div class="logo">
+
+            <div class="logo-icon">
+                <i class='bx bx-chip'></i>
+            </div>
+
+            <div>
+                <h2>Agentic</h2>
+                <h3>Facility Ops AI</h3>
+                <p>PLATFORM</p>
+            </div>
+
+        </div>
+
+        <!-- Menu -->
+
+        <ul class="sidebar-menu">
+
+            <li>
+                <i class='bx bx-home-alt'></i>
+                <span>Overview</span>
+            </li>
+
+            <li>
+                <i class='bx bx-grid-alt'></i>
+                <span>Dashboard</span>
+            </li>
+
+            <li>
+                <i class='bx bx-bot'></i>
+                <span>AI Agents</span>
+            </li>
+
+            <li class="active">
+                <i class='bx bx-category'></i>
+                <span>Modules</span>
+            </li>
+
+            <li>
+                <i class='bx bx-file'></i>
+                <span>Work Orders</span>
+            </li>
+
+            <li>
+                <i class='bx bx-buildings'></i>
+                <span>Assets</span>
+            </li>
+
+            <li>
+                <i class='bx bx-line-chart'></i>
+                <span>Monitoring</span>
+            </li>
+
+            <li>
+                <i class='bx bx-bar-chart-alt-2'></i>
+                <span>Analytics</span>
+            </li>
+
+            <li>
+                <i class='bx bx-pie-chart-alt'></i>
+                <span>Reports</span>
+            </li>
+
+            <li>
+                <i class='bx bx-bell'></i>
+                <span>Alerts</span>
+            </li>
+
+            <li>
+                <i class='bx bx-calendar'></i>
+                <span>Schedules</span>
+            </li>
+
+            <li>
+                <i class='bx bx-link-alt'></i>
+                <span>Integrations</span>
+            </li>
+
+            <li>
+                <i class='bx bx-cog'></i>
+                <span>Settings</span>
+            </li>
+
+        </ul>
+
+        <!-- AI Assistant -->
+
+        <div class="assistant-card">
+
+            <div class="assistant-top">
+
+                <div class="assistant-icon">
+                    <i class='bx bx-bot'></i>
+                </div>
+
+                <div>
+
+                    <h4>AI Assistant</h4>
+
+                    <span>Online</span>
+
+                </div>
+
+            </div>
+
+            <p>
+
+                Ask anything about your facility operations...
+
+            </p>
+
+            <button>
+
+                Ask AI
+
+                <i class='bx bx-right-arrow-alt'></i>
+
+            </button>
+
+        </div>
+
+        <!-- Profile -->
+
+        <div class="profile-card">
+
+            <div class="profile-icon">
+                <i class='bx bx-user-circle'></i>
+            </div>
+
+            <div>
+
+                <h4 id="profileName">User</h4>
+                <p>Facility Manager</p>
+            </div>
+
+        </div>
+
+        <!-- Logout -->
+
+        <div class="logout" id="logoutBtn">
+
+            <i class='bx bx-log-out'></i>
+
+            Logout
+
+        </div>
+
+    </aside>
+
+</main>
+<script src="js/dashboard.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="js/chart.js"></script>
+
+</body>
+
+</html>
